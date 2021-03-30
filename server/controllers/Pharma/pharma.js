@@ -304,7 +304,15 @@ exports.Transaction=async (req,res,next)=>{
 exports.qrcodeScanner=async (req,res,next)=>{
     try{
         const scanData=req.body.scanData;
-        
+         Prescription.findByIdAndUpdate(req.params.press_id,{
+            description:scanData 
+         },{
+             new :true
+         })
+         res.status(200).json({
+             success:1,
+             message:"updated successfully"
+         });
 
     }
     catch(e){

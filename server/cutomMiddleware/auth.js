@@ -1,6 +1,7 @@
 const User = require('../models/User');
 const Doctor=require("../models/Doctor");
 const Pharma=require("../models/Pharma");
+const Hospital =require("../models/Hospital");
 const jwt = require('jsonwebtoken');
 
 const auth = (role)=>{
@@ -18,6 +19,8 @@ const auth = (role)=>{
                 case "Pharma":  
                     Role=Pharma;
                     break;
+                case "Hospital":
+                    Role=Hospital    
                 default:
                     return;    
                         

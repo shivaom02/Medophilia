@@ -11,21 +11,17 @@ const prescriptionSchema = new mongoose.Schema(
            type:mongoose.Schema.Types.ObjectId,
            ref:"User"
        },
-       medicine:{
-           type:String,
-       },
        description: {
            type:Buffer,
        },
-       inTake:[{
-           type:Number
-       }],
-       from:[{
+       
+       for:[{
             type:Date
        }],
-       To:[{
+       
+       exipre:{
            type:Date
-       }],
+       },
        reVisit:{
            type:Date,
        }

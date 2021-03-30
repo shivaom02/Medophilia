@@ -39,6 +39,17 @@ const userSchema = new mongoose.Schema(
             type:mongoose.Schema.Types.ObjectId,
             ref:"Doctor"
         }],
+        emergency:[{
+              medicine:{
+                  type:String,
+              }  ,
+              docnum:{
+                    type:Number
+              },
+              helpNum:{
+                  type:Number
+              }
+        }],
         prescribtion:[{
             type:mongoose.Schema.Types.ObjectId,
             ref:"Prescription"

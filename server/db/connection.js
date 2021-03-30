@@ -1,5 +1,4 @@
-const mongoose = require('mongoose')
-
+const mongoose = require('mongoose');
 function connectDB() {
     var url = process.env.MONGO_URL
     if (process.env.DB_MODE === 'local' || url === '' || !url) {

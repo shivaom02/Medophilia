@@ -17,6 +17,7 @@ route.get("/patient_detail/:user_id",auth("Doctor"),docController.patient_detail
 route.get("/all_patient_details",auth("Doctor"),docController.All_patient_details);
 
 
+// testing 
 route.get("/all_test",async (req,res)=>{
     try{
         const data=  await Doctor.find();

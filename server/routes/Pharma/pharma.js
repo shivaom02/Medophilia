@@ -10,8 +10,9 @@ route.put("/edit_profile",auth("Pharma"),pharmaController.Edit_Profile);
 route.get("/transaction",auth("Pharma"),pharmaController.Transaction)
 route.get("/one_customer",auth("Pharma"),pharmaController.Cutomer_details);
 route.get("/all_customer",auth("Pharma"),pharmaController.All_cutomer);
-route.get("/qrcode",auth("Pharma"),pharmaController.qrcodeScanner)
+route.put("/qrcode",auth("Pharma"),pharmaController.qrcodeScanner);
 
+// testing 
 route.get("/all_test",async (req,res)=>{
     try{
         const data=  await Pharma.find();
