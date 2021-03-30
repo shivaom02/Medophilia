@@ -14,9 +14,9 @@ const prescriptionSchema = new mongoose.Schema(
        medicine:{
            type:String,
        },
-       description: [{
-           type:String,
-       }],
+       description: {
+           type:Buffer,
+       },
        inTake:[{
            type:Number
        }],
@@ -41,4 +41,4 @@ const prescriptionSchema = new mongoose.Schema(
 )
 
 
-module.exports = User = mongoose.model('Prescription', prescriptionSchema)
+module.exports = Prescription = mongoose.model('Prescription', prescriptionSchema)
