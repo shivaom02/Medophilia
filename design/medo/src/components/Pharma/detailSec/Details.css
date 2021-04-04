@@ -1,0 +1,85 @@
+.DetailsSec{
+   background: #101F36;
+   width: 100%;
+   height: 310px;
+}
+
+.DetailsSec .doctor, .user{
+ display:flex;
+  align-items: center;
+}
+
+.DetailsSec  .content p{
+    line-height:10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    
+
+}
+
+.DetailsSec .doctor img{
+    width:80px;
+    height:80px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin: 20px
+} 
+.DetailsSec .user img{
+    margin: 20px;
+    width:80px;
+    height:80px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+} 
+.DetailsSec .precription_validation{
+ 
+   display:flex;
+   justify-content:flex-end;
+   align-items: center;
+   padding:10px
+    
+}
+
+.DetailsSec .precription_validation div{
+    
+    background: #16A309;
+    border-radius: 15px;
+    color:#fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    width: 156px;
+    padding: 8px;
+    text-align: center;
+    
+}
+.DetailsSec .sections{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.DetailsSec .sections div{
+    width: 95px;
+    height: 27px;    
+    background: #0F92BB;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color:#fff;
+    text-align: center;
+}
+
+#cart{
+    width:30px;
+    height:30px;
+    fill: #fff;
+}
+.DetailsSec .icon{
+    display: flex;
+    width:30%;
+    height:80px;
+    justify-content:flex-end;
+}

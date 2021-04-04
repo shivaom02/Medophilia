@@ -20,15 +20,30 @@ const auth = (role)=>{
                     Role=Pharma;
                     break;
                 case "Hospital":
-                    Role=Hospital    
+                    Role=Hospital;
+                    break;
+                case "Superadmin":
+                    Role="admin";
+                    break;    
                 default:
                     return;    
                         
             }
             
+            
             const token = req.cookies.resultAuth
             
             const roleInfo = jwt.verify(token, "secrect")
+
+            if(Role=="admin"&&roleInfo.username=="admin"&&roleInfo.password=="admin"){
+               req.userInfo = {
+                        role:"Owner",
+                        }
+                    next();
+             }
+
+             else{
+
             // console.log(Role,"role model");
             // console.log(roleInfo._id,"role id");
             // console.log("resuts are ",await Role.findById(roleInfo._id));
@@ -45,6 +60,8 @@ const auth = (role)=>{
                 role:user,
             }
             next()
+
+            } 
         } catch (e) {
             console.log(e,"error");
             res.json({
