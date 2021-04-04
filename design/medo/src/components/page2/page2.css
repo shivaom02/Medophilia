@@ -1,3 +1,6 @@
+.registration {
+    background: #101F36;
+}
 .registration .enter_options{
     background-image: url("../assets/peps.svg");
     background-size: 100% 80%;
@@ -42,7 +45,6 @@
 }
 .registration .buttonlogout{
     margin-top: 20%;
-    margin-bottom: 10%;
     display:flex;
     justify-content: center;
     align-items: center;
