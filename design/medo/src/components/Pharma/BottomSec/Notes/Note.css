@@ -1,0 +1,28 @@
+.notes {
+    padding: 2% 4%;
+}
+.notes .content_container{
+    background: #E1E1E1;
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+    margin-bottom: 100px;
+    min-height:280px
+
+}
+
+.notes .content_container p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 22px;
+    padding:5%
+}
+
+.notes  .bottom_part h3{
+    text-align:center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+}

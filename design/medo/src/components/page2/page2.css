@@ -1,0 +1,51 @@
+.registration {
+    background: #101F36;
+}
+.registration .enter_options{
+    background-image: url("../assets/peps.svg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.registration .enter_options button{
+    margin: 10%;
+    padding: 15px 10px;
+    border: 0px solid;
+    font-style: normal;
+    font-weight: bold;
+    font-size:2rem;
+    line-height: 57px;
+
+    color: #00A3FF;
+    background: linear-gradient(270deg, #213B6C 0%, #152443 96.69%), #C4C4C4;
+    border-radius: 36px;
+}
+.registration .title h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align:center;
+    color: #00FFD1;
+
+}
+.registration .logoutnow{
+    
+    background-color: transparent;
+    border: 0px solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #fff;
+}
+.registration .buttonlogout{
+    margin-top: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
