@@ -1,0 +1,90 @@
+.addto{
+    padding:3% 4%;
+}
+
+.addto .main{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px
+}
+
+.addto .main .Prescribed, .Remain, .Bought{
+  display:flex;
+  width:80%;
+  margin-top:20px;
+}
+
+.addto .main .num{
+    width: 59px;
+    height: 55px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #BEFDB4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 39px;
+  }
+
+  .addto .main .Title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 39px;
+    margin-left: 30px;
+
+  }
+
+  .addto .main .dash{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    width: 59px;
+    height: 55px;
+    line-height: 39px;
+    text-align: center;
+
+  }
+  .addto .tot{
+      display:flex;
+      justify-content: space-between;
+      
+  }
+
+  .addto .control {
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      margin-top: 120px;
+  }
+  .addto .control button{
+    border:0px solid;
+    width: 150px;
+    padding:10px;
+    border-radius: 40px;
+    background: #16A309;
+    color:#fff;
+}
+
+.addto .msg{
+    height: 75px;    
+    background: #E1E1E1;
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    padding:10px;
+    margin-top:40px
+}
+.addto .msg  p{
+    line-height:4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+.addto .msg  p span{
+    color: red;
+}

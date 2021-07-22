@@ -1,0 +1,112 @@
+.registration{
+    background: #101F36;
+    height:100%;
+}
+.registration .imgbox{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.registration img{
+    width: 52%;
+    height:120px;
+    margin-top: 50px;
+    
+}
+
+.registration form{
+    margin-top: 50px;
+    display:flex;
+    padding: 2% 8%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration form .input_first{
+    font-size: .96rem;
+    padding: 22px 14px;
+    border:0 solid;
+    background: linear-gradient(270deg, #213B6C 0%, #152443 96.69%), #C4C4C4;
+    border-radius: 36px;
+    margin-bottom: 10vh;
+}
+
+.registration form input:hover{
+    
+    border :1px solid; 
+}
+
+.registration form input::placeholder{
+    text-align: center;
+    font-style: normal;
+    color:#26AAE1;
+}
+.registration .controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.registration .controls .checking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.registration .controls .checking #checkit{
+    margin-right:10px;
+}
+
+.registration .controls .checking label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.registration .controls button{
+    padding:15px 25px;
+    font-size:.95rem;
+    color:#26AAE1;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 40px;
+    background: linear-gradient(270deg, #213B6C 0%, #152443 96.69%), #C4C4C4;
+    border-radius: 36px;
+    
+}
+.registration .dividor{
+    margin:10% auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.registration .dividor .border_div{
+    height: 2px;
+    width:125px;
+    background-color:#fff;
+}
+.registration .dividor .div_or{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    margin: 2px 20px;
+    
+}
+.registration .options{
+    display: flex;
+    justify-content:center;
+}
+.registration .options button{
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    background-color:transparent;
+    border: 0px solid;
+}

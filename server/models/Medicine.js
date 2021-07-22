@@ -25,4 +25,4 @@ const medicineSchema = new mongoose.Schema(
     }
 )
 
-module.exports = User = mongoose.model('Medicine', medicineSchema)
+module.exports = Medicine = mongoose.model('Medicine', medicineSchema)
